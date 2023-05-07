@@ -23,10 +23,13 @@
         align-items: center;
         margin:1%;
         padding:2%;
-        border-radius: 2%; 
+        border-radius: 20px; 
     }
     .box3{
         margin:1%;
+        width:80%;
+        height:400px;
+        border-radius: 20px; 
     }
     .text1{
         width: 50%;
@@ -109,9 +112,9 @@
     }
 
 }
-@media (max-width:1500px){
+@media (max-width:1501px){
     #sitebody{
-        width:80%;
+        width:90%;
         margin:auto;
         font-size:14px;
         font-family:微軟正黑體;
@@ -135,10 +138,13 @@
         align-items: center;
         margin:1%;
         padding:2%;
-        border-radius: 2%; 
+        border-radius: 20px; 
     }
     .box3{
         margin:1%;
+        width:80%;
+        height:300px;
+        border-radius: 20px; 
     }
     .text1{
         width: 90%;
@@ -243,10 +249,13 @@
         align-items: center;
         margin:1%;
         padding:2%;
-        border-radius: 2%; 
+        border-radius: 20px; 
     }
     .box3{
         margin:1%;
+        width:95%;
+        height:210px;
+        border-radius: 20px; 
     }
     .text1{
         width: 90%;

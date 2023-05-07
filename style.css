@@ -260,9 +260,10 @@
     .text1{
         width: 90%;
         margin:2%;
+        line-height: 140%;
         font-size:1em;
         color: #fefefe;
-        letter-spacing:0.25em;
+        letter-spacing:0.1em;
         
     }
     .img1{
@@ -326,9 +327,10 @@
     table{
         text-align:center;
         margin:auto;
+        line-height: 130%;
         color: #fefefe;
         border-collapse:collapse;
-        letter-spacing:0.25em;
+        letter-spacing:0.15em;
         border:2px #8ab4f8 solid;
         background-color: #2a2a2a;
     }

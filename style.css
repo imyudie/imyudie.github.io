@@ -1,0 +1,219 @@
+@media (min-width:1500px){
+    #sitebody{
+        width:80%;
+        margin:auto;
+        font-size:14px;
+        font-family:微軟正黑體;
+        border-radius: 10px;
+    }
+    .box1{
+        width:90%;
+        background:#3c4043;
+        display: flex;
+        flex-direction: row-reverse;
+        margin:1% 5% 1% 5%;
+        padding:2%;
+        border-radius: 20px ; ; 
+    }
+    .box2{
+        width:90%;
+        background:#3c4043;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        margin:1%;
+        padding:2%;
+        border-radius: 2%; 
+    }
+    .box3{
+        margin:1%;
+    }
+    .text1{
+        width: 50%;
+        font-size:1em;
+        color: #fefefe;
+        letter-spacing:0.25em;
+        line-height:25px;
+    }
+    .img1{
+        margin:auto;
+        width: 45%;
+        border-radius: 2%;   
+    }
+    .title{
+        width:90%;
+        background:#292a2d;
+        border-radius: 40px;
+        margin:2%;
+        padding:2%;
+    }
+    .img_text{
+        background-clip: text;
+        -webkit-background-clip: text;
+        color:transparent;
+    }
+    #header{
+        background: #202124;
+        height: 30%;
+        border-radius: 20px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin:2%;
+        background-image: url("img/b.jpg");
+        background-size: cover;
+    }
+    #content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background:#1f1f1f;
+        border-radius: 20px;
+        margin:2%;
+        padding:2%;
+    }
+    #footer{
+        clear: both;
+        background-color:#222222;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        color: azure;
+        border-radius: 20px;
+        margin:2%;
+        letter-spacing:0.5em;
+        }
+    h1{
+        text-align:center;
+        line-height: 30%;
+        font-size: 200px;
+        font-weight: bold;
+        mix-blend-mode: overlay;
+    }
+    h2{
+        text-align:center;
+        color: azure;
+        font-size: 30px;
+    }
+    table{
+        text-align:center;
+        margin:auto;
+        color: #fefefe;
+        border-collapse:collapse;
+        letter-spacing:0.25em;
+        border:2px #8ab4f8 solid;
+        background-color: #2a2a2a;
+        line-height:30px;
+    }
+
+}
+@media (max-width:1500px){
+    #sitebody{
+        width:80%;
+        margin:auto;
+        font-size:14px;
+        font-family:微軟正黑體;
+        border-radius: 10px;
+    }
+    .box1{
+        width:90%;
+        background:#3c4043;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin:1% 5% 1% 5%;
+        padding:2%;
+        border-radius: 20px ; ; 
+    }
+    .box2{
+        width:90%;
+        background:#3c4043;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        margin:1%;
+        padding:2%;
+        border-radius: 2%; 
+    }
+    .box3{
+        margin:1%;
+    }
+    .text1{
+        width: 90%;
+        margin:2%;
+        font-size:1em;
+        color: #fefefe;
+        letter-spacing:0.25em;
+        
+    }
+    .img1{
+        margin:auto;
+        width: 90%;
+        border-radius: 2%;   
+    }
+    .title{
+        width:90%;
+        background:#292a2d;
+        border-radius: 40px;
+        margin:2%;
+        padding:2%;
+    }
+    #header{
+        background: #202124;
+        height: 30%;
+        border-radius: 20px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin:2%;
+        background-image: url("img/b.jpg");
+        background-size: cover;
+    }
+    #content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background:#1f1f1f;
+        border-radius: 20px;
+        line-height:25px;
+        margin:2%;
+        padding:2%;
+    }
+    #footer{
+        clear: both;
+        background-color:#222222;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        color: azure;
+        border-radius: 20px;
+        margin:2%;
+        }
+    h1{
+        text-align:center;
+        line-height: 100%;
+        font-size: 80px;
+        font-weight: bold;
+        mix-blend-mode: overlay;
+    }
+    h2{
+        text-align:center;
+        color: azure;
+        font-size: 30px;
+        
+    }
+    table{
+        text-align:center;
+        margin:auto;
+        color: #fefefe;
+        border-collapse:collapse;
+        letter-spacing:0.25em;
+        border:2px #8ab4f8 solid;
+        background-color: #2a2a2a;
+    }
+
+}
